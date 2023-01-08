@@ -16,7 +16,9 @@
 
 1. `compare.py` - скрипт сравнения файлов
 
-2. `input.txt` - текстовый файл с файлами для сравнения в формате "`original/original.py plagiat/plagiat.py`"
+2. `input.txt` - текстовый файл с файлами для сравнения в формате 
+
+"`original/original.py plagiat/plagiat.py`"
 
 3. `scores.txt` - текстовый файл с вероятностью файла на плагиат(0 - его точно нет, 1 - он точно есть)
 
