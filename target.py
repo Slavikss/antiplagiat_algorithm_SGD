@@ -1,5 +1,5 @@
 from os import listdir
-from os.path import isfile, join
+from os.path import isfile
 
 
 # Создается файл с целевой переменной каждого файла, где 0 - оригинал, 1 - плагиат
