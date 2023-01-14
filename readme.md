@@ -27,7 +27,7 @@
 
 
 
-The task was made for <ins>Tinkoff's deep learning</ins> course
+The task was made for <ins>[Tinkoff's deep learning](https://fintech.tinkoff.ru/school/generation/dl/)</ins> course
 
 
 
