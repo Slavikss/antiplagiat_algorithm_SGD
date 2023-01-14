@@ -27,7 +27,7 @@
 
 
 
-The task wasa made for <ins>Tinkoff's deep learning </ins> course
+The task was made for <ins>Tinkoff's deep learning</ins> course
 
 
 
