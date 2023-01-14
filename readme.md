@@ -1,33 +1,33 @@
-## Алгоритм для обнаружения плагиата файлов на основе bag of words, tfidf, SGD классификатора
+## Algorithm for plagiary detection based on bag of words, tfidf, SGD classifier
 
-#### Пример обучения: `python3 train.py files plagiat1 plagiat2 --model model.pkl`, где:
+#### Example of train: `python3 train.py files plagiat1 plagiat2 --model model.pkl`, where:
 
-1. `train.py` - скрипт обучения
+1. `train.py` - script for model train
 
-2. `files` - директория с оригинальными файлами
+2. `files` - directory with original files
 
-3. `plagiat1(2)` - директории с файлами плагиата
+3. `plagiat1(2)` - directories with plagiary files
 
-4. `model.pkl` - название файла весов после обучения
+4. `model.pkl` - model's weights filename after train
 
 
 
-#### Пример распознавания: `python3 compare.py input.txt scores.txt --model model.pkl `,где:
+#### Example of detection: `python3 compare.py input.txt scores.txt --model model.pkl `,where:
 
-1. `compare.py` - скрипт сравнения файлов
+1. `compare.py` - script for comparing files
 
-2. `input.txt` - текстовый файл с файлами для сравнения в формате 
+2. `input.txt` - text file with files to compare in format
 
    "`original/original.py plagiat/plagiat.py`"
 
-3. `scores.txt` - текстовый файл с вероятностью файла на плагиат(0 - его точно нет, 1 - он точно есть)
+3. `scores.txt` - text file with plagiary probability
 
-4. `model.pkl` - веса модели для сравнения файлов
-
-
+4. `model.pkl` - model's weights
 
 
-Задание было сделано для отбора на курсы <ins>Тинькофф поколение по глубокому обучению</ins>
+
+
+The task wasa made for <ins>Tinkoff's deep learning </ins> course
 
 
 
